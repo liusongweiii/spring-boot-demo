@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo
+
+  profiles:
+    active: dev
+
+  thymeleaf:
+        # 页面缓存
+        cache: false
+        mode: LEGACYHTML5
+
+  http:
+      encoding:
+        force: true
+        charset: UTF-8
+        enabled: true
